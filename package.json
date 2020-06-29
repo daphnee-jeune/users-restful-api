@@ -1,0 +1,17 @@
+{
+  "name": "users-api",
+  "version": "0.0.1",
+  "description": "A Basic CRUD API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node-debug server.js",
+    "watch": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6",
+    "nodemon": "^2.0.4"
+  }
+}
